@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iván Gil Guirado | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+    <header>
+        <div class="container nav">
+            <a href="#" class="logo">IVÁN<span>GIL</span></a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <canvas id="matrixCanvas"></canvas>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">¡Hola! Soy</p>
+                <h1 class="hero-title">Iván Gil Guirado</h1>
+                <p class="hero-role">Software Developer | Linux</p>
+                <p class="hero-description">
+                    Desde pequeño siempre me ha fascinado la informática. Esa curiosidad me llevó al
+                    <strong>desarrollo web</strong>, donde disfruto creando aplicaciones desde cero.
+                    Actualmente trabajo como <strong>Desarrollador en prácticas en 3XA Design</strong>
+                    y exploro el mundo de <strong>Linux</strong> (Qtile, KDE Plasma, Kitty...)
+                    porque me gusta tener el control de mi entorno.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#experiencia" class="btn btn-primary">Mi experiencia</a>
+                    <a href="#proyectos" class="btn btn-outline">Proyectos</a>
+                    <a href="#contacto" class="btn btn-outline">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="photo/ChatGPT%20Image%2017%20may%202026%2C%2022_34_26.png" alt="Iván Gil Guirado" class="avatar-img" />
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <p class="section-desc">Stack técnico completo que domino y sigo ampliando.</p>
+
+            <div class="skills-wrapper">
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3>Lenguajes</h3>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-item"><i class="devicon-java-plain colored"></i> Java</span>
+                    <span class="skill-item"><i class="devicon-php-plain colored"></i> PHP</span>
+                    <span class="skill-item"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                    <span class="skill-item"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+                    <span class="skill-item"><i class="devicon-python-plain colored"></i> Python</span>
+                    <span class="skill-item"><i class="devicon-html5-plain colored"></i> HTML5</span>
+                    <span class="skill-item"><i class="devicon-css3-plain colored"></i> CSS</span>
+                    <span class="skill-item">XML</span>
+                    <span class="skill-item">JSON</span>
+                    <span class="skill-item">PL/SQL</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3>Frontend</h3>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-item"><i class="devicon-react-plain colored"></i> React.js</span>
+                    <span class="skill-item"><i class="devicon-angularjs-plain colored"></i> AngularJS</span>
+                    <span class="skill-item"><i class="devicon-astro-plain colored"></i> Astro</span>
+                    <span class="skill-item"><i class="devicon-tailwindcss-plain colored"></i> Tailwind</span>
+                    <span class="skill-item"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3>Backend</h3>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-item"><i class="devicon-spring-plain colored"></i> Spring Boot</span>
+                    <span class="skill-item"><i class="devicon-laravel-plain colored"></i> Laravel</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3>Bases de datos</h3>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-item"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+                    <span class="skill-item">PL/SQL</span>
+                    <span class="skill-item"><i class="devicon-firebase-plain colored"></i> Firebase</span>
+                    <span class="skill-item">PhpMyAdmin</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3>DevOps / OS</h3>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-item"><i class="devicon-archlinux-plain"></i> Arch Linux</span>
+                    <span class="skill-item"><i class="devicon-linux-plain"></i> Linux</span>
+                    <span class="skill-item">Unix</span>
+                    <span class="skill-item"><i class="devicon-docker-plain colored"></i> Docker</span>
+                    <span class="skill-item">XAMPP</span>
+                    <span class="skill-item"><i class="devicon-git-plain colored"></i> Git</span>
+                    <span class="skill-item"><i class="devicon-github-original"></i> GitHub</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <h3>Soft skills</h3>
+                </div>
+                <div class="skills-grid">
+                    <span class="skill-item skill-soft">Trabajo en equipo</span>
+                    <span class="skill-item skill-soft">Atención al detalle</span>
+                    <span class="skill-item skill-soft">Organización</span>
+                    <span class="skill-item skill-soft">Curiosidad técnica</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <p class="section-desc">Algunos trabajos que he realizado.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>GameWasters</h3>
+                    <p>Plataforma web para analizar perfiles de Steam y generar recomendaciones de juegos según tus hábitos y géneros preferidos.</p>
+                    <div class="project-tags">
+                        <span><i class="devicon-react-plain colored"></i> React</span>
+                        <span><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+                        <span><i class="devicon-express-original colored"></i> Express</span>
+                        <span><i class="devicon-sqlite-plain colored"></i> SQLite</span>
+                        <span>Zustand</span>
+                        <span>Zod</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Kwmee/GameWasters" target="_blank" class="project-link">GitHub</a>
+                        <a href="https://game-wasters.vercel.app" target="_blank" class="project-link">Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Projekt — Time Tracking</h3>
+                    <p>Aplicación web de control horario desarrollada en 3XA Design. He colaborado en su desarrollo como Desarrollador en prácticas.</p>
+                    <div class="project-tags">
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>Node.js</span>
+                        <span>SQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://projekt.3xa.es/app/#/time" target="_blank" class="project-link">Web</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Hellborn — Festival de Metal</h3>
+                    <p>Proyecto de fin de grado. Aplicación web para un festival de metal con backend en Spring Boot y frontend React servido con Laravel.</p>
+                    <div class="project-tags">
+                        <span><i class="devicon-spring-plain colored"></i> Spring Boot</span>
+                        <span><i class="devicon-java-plain colored"></i> Java</span>
+                        <span><i class="devicon-react-plain colored"></i> React</span>
+                        <span><i class="devicon-laravel-plain colored"></i> Laravel</span>
+                        <span><i class="devicon-php-plain colored"></i> PHP</span>
+                        <span><i class="devicon-bootstrap-plain colored"></i> Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Kwmee/TFG" target="_blank" class="project-link">GitHub</a>
+                        <a href="https://tfg-neon.vercel.app" target="_blank" class="project-link">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiencia</h2>
+            <p class="section-desc">Mi trayectoria profesional y formación.</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-line">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">mar. 2026 — Actualidad</span>
+                        <h3>Desarrollador en prácticas</h3>
+                        <p class="timeline-company">3XA Design · En remoto</p>
+                        <p>Desarrollando aplicaciones web y aprendiendo del día a día en un entorno profesional.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-line">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 — 2026</span>
+                        <h3>Grado Superior en Desarrollo de Aplicaciones Web</h3>
+                        <p class="timeline-company">I.E.S. Ribera de los Molinos</p>
+                        <p>Ciclo Formativo de Grado Superior. Tecnologías: Laravel, MySQL, y más.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-line">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">— 2023</span>
+                        <h3>Grado Superior en Sonido</h3>
+                        <p class="timeline-company">I.E.S. Luis García Berlanga</p>
+                        <p>Ciclo Formativo de Grado Superior en Sonido para audiovisuales y espectáculos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-desc">¿Quieres hablar conmigo? Estaré encantado de escucharte.</p>
+            <div class="contact-info">
+                <a href="https://linkedin.com/in/iv%C3%A1n-gil-guirado-76b23832a" target="_blank" class="contact-card">
+                    <i class="devicon-linkedin-plain"></i>
+                    <span>LINKEDIN</span>
+                </a>
+                <a href="https://github.com/Kwmee" target="_blank" class="contact-card">
+                    <i class="devicon-github-original"></i>
+                    <span>GITHUB</span>
+                </a>
+                <a href="mailto:ivangilguirado@gmail.com" class="contact-card">
+                    <i class="devicon-google-plain"></i>
+                    <span>GMAIL</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Iván Gil Guirado. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Kwmee" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/iv%C3%A1n-gil-guirado-76b23832a" target="_blank">LinkedIn</a>
+                <a href="mailto:ivangilguirado@gmail.com">Correo</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+        const hero = document.querySelector('.hero');
+
+        function resize() {
+            canvas.width = hero.offsetWidth;
+            canvas.height = hero.offsetHeight;
+        }
+
+        resize();
+        window.addEventListener('resize', resize);
+
+        const fontSize = 14;
+        const columns = Math.floor(canvas.width / fontSize);
+        const drops = Array(columns).fill(1);
+
+        function draw() {
+            ctx.fillStyle = 'rgba(8, 8, 14, 0.08)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#a78bfa';
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = Math.random() > 0.5 ? '1' : '0';
+                ctx.fillStyle = Math.random() > 0.98 ? '#c4b5fd' : '#7c3aed';
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+
+        setInterval(draw, 50);
+    </script>
+</body>
+</html>
