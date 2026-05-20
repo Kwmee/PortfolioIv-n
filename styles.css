@@ -433,6 +433,8 @@ section {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
     background: #12121a;
     border: 1px solid #1e1e2a;
     border-radius: 16px;
@@ -501,7 +503,7 @@ section {
 .project-links {
     display: flex;
     gap: 10px;
-    margin-top: 16px;
+    margin-top: auto;
 }
 
 .project-link {
