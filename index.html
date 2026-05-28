@@ -292,12 +292,12 @@
             ctx.fillStyle = 'rgba(8, 8, 14, 0.08)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            ctx.fillStyle = '#a78bfa';
+            ctx.fillStyle = '#555555';
             ctx.font = fontSize + 'px monospace';
 
             for (let i = 0; i < drops.length; i++) {
                 const text = Math.random() > 0.5 ? '1' : '0';
-                ctx.fillStyle = Math.random() > 0.98 ? '#c4b5fd' : '#7c3aed';
+                ctx.fillStyle = Math.random() > 0.98 ? '#e4e4e7' : '#444444';
                 ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
                 if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
